@@ -39,15 +39,12 @@ section#telefone{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 627px;
-    width: 311px;
-    
-   background-image: url(../imagens/frame-iphone.png);
-    
-   display: block;
-    box-sizing: 1px
+    height: 300px;
+    width: 600px;
+ background-image: url(../imagens/frame-iphone.png) no-repeat;
+    box-sizing: 1px;
 
-    ;
+    
     
     }
     
@@ -56,7 +53,7 @@ iframe#tela{
 left: 22px;
 top: 80px;
 position: relative;
-width: 269px;
+width: 267.6px;
 height: 471px;
 
 
@@ -85,5 +82,5 @@ border: 2px solid rgba(255, 255, 255, 0.719);
 
 transform: translate(-3px -3px );
 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);
-transition: transform .4s, border 1s;
+transition: transform 1s, border 1s;
 }
